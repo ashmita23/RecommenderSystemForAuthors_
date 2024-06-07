@@ -3,6 +3,6 @@ The objective of this project was to create a recommendation system for authors 
 
 The authors and articles were converted into embeddings using an open-source LLM built specially for research atricle purposes. The title and abstract of each paper was taken as input. You can find the LLM here : https://huggingface.co/allenai/specter2
 
-The similarity metric used for this analysis was the articles they had published over 20 years from 2002 to 2024. 
+The representative documents used for this analysis was the articles they had published over 20 years from 2002 to 2024. The similarity was measured using cosine similarity of embeddings.
 
 I have built a author-author recommendation system and also a graph representation of the authors to visualize their similarity!
