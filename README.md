@@ -1,8 +1,12 @@
 ### Recommender System based on Authors and Articles leveraging open-source LLMs
-The objective of this project was to create a recommendation system for authors to be able to access the most similar authors that they could collaborate for future research based on their previous work. 
 
-The authors and articles were converted into embeddings using an open-source LLM built specially for research atricle purposes. The title and abstract of each paper was taken as input. You can find the LLM here : https://huggingface.co/allenai/specter2
+### Problem Statement: 
+In the academic and research community, identifying potential collaborators with similar research interests is crucial for fostering innovation and advancing knowledge. However, the process of finding suitable co-authors based on prior work can be time-consuming and inefficient, particularly when dealing with a vast body of literature. The objective of this project was to create a recommendation system that allows authors to easily discover and connect with other researchers whose work closely aligns with theirs, thereby facilitating meaningful collaborations for future research.
 
-The representative documents used for this analysis was the articles they had published over 20 years from 2002 to 2024. The similarity was measured using cosine similarity of embeddings.
+### Solution Overview:
+To solve this problem, I developed an author-author recommendation system that leverages the power of embeddings generated from research articles. Using an open-source LLM specifically designed for research purposes, known as SPECTER2, I converted the titles and abstracts of articles into high-dimensional embeddings that capture the essence of the authors' research focus. The dataset consisted of published articles spanning over two decades, from 2002 to 2024, providing a comprehensive view of each author's contributions.
 
-I have built a author-author recommendation system and also a graph representation of the authors to visualize their similarity!
+The similarity between authors was calculated using the cosine similarity of their respective embeddings, enabling the identification of researchers with closely aligned interests. In addition to the recommendation system, I created a graph representation of the authors, which visually maps out their similarities, making it easier to identify potential collaborators. This system not only streamlines the process of finding co-authors but also enhances the visibility of relevant research work within the academic community.
+
+
+![Author rec system](https://github.com/user-attachments/assets/34e6fa19-0aa5-477e-8105-da85eea9daf3)
