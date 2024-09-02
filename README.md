@@ -8,4 +8,5 @@ To solve this problem, I developed an author-author recommendation system that l
 
 The similarity between authors was calculated using the cosine similarity of their respective embeddings, enabling the identification of researchers with closely aligned interests. In addition to the recommendation system, I created a graph representation of the authors, which visually maps out their similarities, making it easier to identify potential collaborators. This system not only streamlines the process of finding co-authors but also enhances the visibility of relevant research work within the academic community.
 
-![Author rec system](https://github.com/user-attachments/assets/34e6fa19-0aa5-477e-8105-da85eea9daf3)
+
+<img width="808" alt="Screenshot 2024-08-30 at 2 02 27 AM" src="https://github.com/user-attachments/assets/61fbbada-93ca-4a33-9daa-7d04d35d575d">
